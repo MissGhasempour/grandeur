@@ -3,6 +3,7 @@ import img from "../../images/650bd400fa78b97c70dc9c4e_Stage-02-_31_-mrg-_1_-min
 import img1 from "../../images/651163699aaff1956e77ee75_tall (5)-p-1080.webp";
 import img2 from "../../images/6513b9fd64ea4d50100fcd19_Antonelli-Atelier-_1_-p-1080.webp";
 import img3 from '../../images/65116392640fc1667b2db5c1_either-p-1080.webp'
+import img4 from '../../images/6511632b503fdd98864655ab_Wide (3)-p-1080.webp'
 export default function Header() {
   return (
     <div>
@@ -19,7 +20,11 @@ export default function Header() {
         </div>
         <div className="w-150">
           <Image src={img2} alt="sofa" />
-          <Image src={img3} alt="sofa" height={400} />
+          <Image src={img4} alt="sofa"/>
+         
+        </div>
+        <div className="w-150">
+        <Image src={img3} alt="sofa" />
         </div>
       </div>
     </div>
